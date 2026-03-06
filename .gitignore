@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# Java / Spring Boot
+**/target/
+**/build/
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDE
+**/.idea/
+**/*.iml
+**/.vscode/
+**/.classpath
+**/.project
+**/.settings/
+
+# Frontend (Node.js)
+**/node_modules/
+**/.pnpm-store/
+**/.npm/
+**/.yarn/
+**/.yarn/cache/
+**/.yarn/unplugged/
+**/.yarn/build-state.yml
+**/.yarn/install-state.gz
+**/.turbo/
+**/.next/
+**/.nuxt/
+**/.svelte-kit/
+**/.angular/
+**/.cache/
+**/dist/
+**/coverage/
+**/*.tsbuildinfo
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
