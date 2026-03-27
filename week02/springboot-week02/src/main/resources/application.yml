@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: springboot-week02
+
+server:
+  port: 12349
