@@ -1,0 +1,1 @@
+{"code":200,"msg":"success","data":{"name":"Spring Boot 第03周大作业","version":"1.0.0","description":"配置管理与多环境管理综合练习项目","uploadDir":"uploads","database":{"host":"localhost","username":"study_user","password":"dev-password"},"serverPort":8080,"activeProfiles":["dev"]}}

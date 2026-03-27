@@ -40,3 +40,6 @@ replay_pid*
 **/.env
 **/.env.*
 !**/.env.example
+
+# Playwright runtime artifacts
+**/.playwright-cli/

@@ -1,0 +1,16 @@
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target cn.rabbbbbit.bighomework01.config.AppConfig failed:
+
+    Property: app.name
+    Value: ""
+    Origin: "app.name" from property source "commandLineArgs"
+    Reason: app.name 不能为空
+
+Action:
+
+Update your application's configuration

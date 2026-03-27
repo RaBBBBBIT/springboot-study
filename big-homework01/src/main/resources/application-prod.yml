@@ -1,0 +1,4 @@
+app:
+  database:
+    host: prod.example.com
+    password: ${DB_PASSWORD:}

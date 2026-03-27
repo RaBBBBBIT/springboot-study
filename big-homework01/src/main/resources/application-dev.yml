@@ -1,0 +1,4 @@
+app:
+  database:
+    host: localhost
+    password: dev-password

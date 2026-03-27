@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: big-homework01
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+server:
+  port: 8080
+
+app:
+  name: Spring Boot 第03周大作业
+  version: 1.0.0
+  description: 配置管理与多环境管理综合练习项目
+  upload-dir: uploads
+  database:
+    username: study_user
+
+deepseek:
+  base-url: https://api.deepseek.com/chat/completions
+  api-key: ${DEEPSEEK_API_KEY:}
+  model: ${DEEPSEEK_MODEL:deepseek-chat}
