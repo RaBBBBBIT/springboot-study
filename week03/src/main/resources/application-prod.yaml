@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: week03 生产环境
+
+server:
+  port: 8080
+
+app:
+  name-name: 企业后台管理系统
+  version: 0.0.2
+  description: 基于 SpringBoot 3.5.1 构建
+  author:
+    name: RaBBIT
+    website: rabbbbbit.cn
+    email: 524302400@qq.com
+  features:
+    - 基于 SpringBoot
+    - 基于 SpringSecurity
+  published: false # 是否发布
