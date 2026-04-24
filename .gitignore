@@ -4,6 +4,7 @@
 # Java / Spring Boot
 **/target/
 **/build/
+**/.m2/
 *.class
 *.log
 hs_err_pid*

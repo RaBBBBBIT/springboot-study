@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: week05
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot3_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root # 自己的数据库用户名
+    password: 123456 # 自己的数据库密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      initialization-fail-timeout: 0
+  sql:
+    init:
+      mode: never
+      encoding: UTF-8
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true # 下划线 -> 驼峰自动映射
+  type-aliases-package: cn.rabbbbbit.week05.entity
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
